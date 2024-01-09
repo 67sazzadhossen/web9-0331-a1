@@ -5,6 +5,44 @@
 
 /* common styles */
 
+.product-flex {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+
+}
+
+.title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
 .cmn-btn {
 
     color: #FFF;
@@ -158,4 +196,222 @@
     line-height: 56px;
     text-transform: capitalize;
     text-align: center;
+}
+
+/* best offer section styles */
+
+.bo-section {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.best-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+.best-img-div {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.best-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49.8px;
+    width: 364.844px;
+    height: 364.844px;
+
+}
+
+.best-new-year h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-new-year img {
+    margin-top: 16px;
+}
+
+/* Functional Section Styles */
+.functional-section {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+.functional-section h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.functional-section h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.functional-banner-section{
+    margin-top: 64px;
+    position: relative;
+    height: 665px;
+}
+.girl{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.discount{
+    position: absolute;
+    top: 20%;
+    right: 65%;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.gift-box{
+    position: absolute;
+}
+/* Gift section */
+.gift-section {
+    margin-top: 120px;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-section {
+    margin-top: 48px;
+}
+
+.product-img {
+    transform: scale(1);
+    transition: transform .4s;
+}
+
+.product-img:hover {
+    transform: scale(1.07);
+}
+
+/* Form section styles */
+.form-section {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+
+.form-input[type="text"]{
+    padding: 25px 85px 25px 35px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    
+    
+}
+
+.form-button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 24px 56px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    outline: none;
+    
+}
+.input{
+   
+   margin-top: 48px;
+   display: inline-block;
+   
+   
+}
+
+/* footer styles */
+footer{
+    background: #070211;;
+}
+.footer-container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-text{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+align-items: center;
+
+}
+.footer{
+    
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    text-align: center;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    border-top:0.5px solid rgba(255, 255, 255, 0.15); ;
+    border-bottom:0.5px solid rgba(255, 255, 255, 0.15); ;
+    padding: 48px 0;
+}
+.phone, .website{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
 }
